@@ -1,0 +1,298 @@
+body {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    
+    font-family: "roboto";
+    
+}
+
+
+
+/*Over all header with logo and links*/
+
+
+.header-container{
+    background-color: #1F2937;  
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    width: 70%; 
+    margin: 0 auto;
+    padding-bottom: 80px;
+    
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+
+}
+.header-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 18px;
+
+}
+
+/*link text used in top*/
+
+a {
+
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+
+
+
+/* 
+*****************************************************************
+first box with title and image*/
+.intro-container-main{
+    background-color: #1F2937;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    
+}
+
+.intro-container{
+    display: flex  ;
+    
+    background-color: #1F2937;
+    
+    width: 70%;
+    margin: 0 auto;
+    
+
+}
+
+.intro {
+        display: flex;
+        flex-direction: column ;
+        
+        justify-content: flex-start;
+        gap:10px;
+        
+
+       
+    }
+
+
+    .h1 {
+    
+        font-size: 48px;
+        font-weight: bolder;
+        color: #f9faf8;
+        
+        
+       
+    }
+    p{
+        color: #e5e7eb;
+        font-size: 18px;
+        
+    }
+    
+    .header-button{
+        background-color: #3882f6;
+        padding: 8px 24px;
+        color: #f9faf8;
+        font-size: 18px;
+        font-weight: bold;
+        border: 0;
+        border-radius: 5px;
+        width: 150px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+/* ***************************'
+
+Box 2 infomation and images  */
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.info-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-container{
+    display: flex;
+    
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 40px 0px 80px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    flex: 1 1 0;
+    gap:   50px;
+
+    margin-top: 50px;
+    
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+}
+ .image2{
+    border: 5px solid #1f2937;
+    border-radius: 10px;
+
+ }
+.info{
+    display: flex;
+    justify-content: center;
+    
+    max-width: 200px;
+    font-size: 18px;
+   
+}
+    
+/* Third container */
+
+.container-3 {
+    display: flex;
+    background-color: #e5e7eb;
+    width: 100%;
+    justify-content: center;
+    color: #1f2937;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.quote{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.quotetext, .author{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.author {
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+/* forth container */
+
+.container-4{
+    display: flex;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.action-container{
+    display: flex;
+    width: 70%;
+    
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    
+    
+}
+.msg-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 60%;
+    
+    justify-content: center;
+    padding: 32px;
+
+    
+    
+}
+
+.action-title {
+    color: #e5e7eb;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    
+}
+.action-info{
+ padding: 0;
+ margin: 0;;
+}
+.action-button{
+    
+        background-color: #3882f6;
+        padding: 6px 24px;
+        color: #f9faf8;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 150px;
+        height: 50px;
+        border: 1px solid #e5e7eb ;
+        
+        
+    }
+
+
+    /*footer*/
+
+.footer-container{
+
+    display: flex;
+    width:100%;
+
+    background-color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
